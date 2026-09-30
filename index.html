@@ -68,6 +68,35 @@
             font-size: 13px;
             font-weight: 600;
         }
+        /* Store Buttons Styling */
+        .store-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+        .store-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #0F172A;
+            color: #FFFFFF;
+            padding: 12px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background 0.2s;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+        }
+        .store-btn:hover {
+            background: #1E293B;
+        }
+        .store-btn img {
+            width: 22px;
+            height: 22px;
+        }
         .section {
             margin-top: 32px;
             border-top: 1px solid #E2E8F0;
@@ -152,55 +181,65 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="icon">📚</div>
-            <h1>English Grammar Practice</h1>
-            <p class="subtitle">Comprehensive English Grammar Testing & Learning App for iOS</p>
-            <div class="badge-list">
-                <span class="badge">✨ 775+ Tests</span>
-                <span class="badge">⚡ 100% Offline</span>
-                <span class="badge">🔥 Daily Streaks</span>
-                <span class="badge">🎙️ Natural Voices</span>
-            </div>
+<div class="container">
+    <div class="header">
+        <div class="icon">📚</div>
+        <h1>English Grammar Practice</h1>
+        <p class="subtitle">Comprehensive English Grammar Testing & Learning App</p>
+        <div class="badge-list">
+            <span class="badge">✨ 775+ Tests</span>
+            <span class="badge">⚡ 100% Offline</span>
+            <span class="badge">🔥 Daily Streaks</span>
+            <span class="badge">🎙️ Natural Voices</span>
         </div>
 
-        <div class="section">
-            <h2>App Overview</h2>
-            <p>English Grammar Practice helps ESL and EFL learners improve English grammar skills from Beginner to Advanced levels. Master tenses, prepositions, adjectives, conditionals, clauses, and more with instant feedback and smart explanations.</p>
-            
-            <ul class="features">
-                <li>📖 775+ Comprehensive Grammar Tests</li>
-                <li>📶 100% Offline Capability</li>
-                <li>⏰ Smart Daily Reminders</li>
-                <li>🎯 Mistake Bank & Personalized Review</li>
-                <li>🎙️ Apple Neural Voice Audio Pronunciation</li>
-                <li>🏆 Streaks & Achievement Badges</li>
-            </ul>
+        <!-- Download Buttons for App Store & Google Play -->
+        <div class="store-buttons">
+            <a href="https://apps.apple.com/us/app/daily-english-grammar-practice/id1396346170" class="store-btn" target="_blank">
+                <span>📱 Download on the App Store</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.haustudio.EnglishGrammarPractice" class="store-btn" target="_blank">
+                <span>🤖 Get it on Google Play</span>
+            </a>
         </div>
-
-        <div class="section">
-            <h2>Support & Contact</h2>
-            <p>Need help, have a question, or want to report an issue? We're here to assist you!</p>
-            <div class="contact-box">
-                <p>Email our support team directly:</p>
-                <a href="mailto:haumobiler@gmail.com">haumobiler@gmail.com</a>
-            </div>
-            <div class="contact-box">
-                <p>Sales team:</p>
-                <a href="mailto:trangltt192@gmail.com">trangltt192@gmail.com</a>
-            </div>
-        </div>
-
-        <div class="footer-links">
-            <a href="https://sites.google.com/view/privacypolicy-englishgrammar/home" target="_blank">Privacy Policy</a>
-            <span>•</span>
-            <a href="https://sites.google.com/view/terms-english-grammar-practice/home" target="_blank">Terms of Use</a>
-            <span>•</span>
-            <a href="app-ads.txt">app-ads.txt</a>
-        </div>
-        
-        <p class="ad-auth">Official publisher verification for Google AdMob advertising: <a href="app-ads.txt">View app-ads.txt</a></p>
     </div>
+
+    <div class="section">
+        <h2>App Overview</h2>
+        <p>English Grammar Practice helps ESL and EFL learners improve English grammar skills from Beginner to Advanced levels. Master tenses, prepositions, adjectives, conditionals, clauses, and more with instant feedback and smart explanations.</p>
+
+        <ul class="features">
+            <li>📖 775+ Comprehensive Grammar Tests</li>
+            <li>📶 100% Offline Capability</li>
+            <li>⏰ Smart Daily Reminders</li>
+            <li>🎯 Mistake Bank & Personalized Review</li>
+            <li>🎙️ Apple Neural Voice Audio Pronunciation</li>
+            <li>🏆 Streaks & Achievement Badges</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Support & Contact</h2>
+        <p>Need help, have a question, or want to report an issue? We're here to assist you!</p>
+        <div class="contact-box">
+            <p>Email our support team directly:</p>
+            <a href="mailto:haumobiler@gmail.com">haumobiler@gmail.com</a>
+        </div>
+        <div class="contact-box">
+            <p>Sales team:</p>
+            <a href="mailto:trangltt192@gmail.com">trangltt192@gmail.com</a>
+        </div>
+    </div>
+
+    <div class="footer-links">
+        <a href="https://sites.google.com/view/privacypolicy-englishgrammar/home" target="_blank">Privacy Policy</a>
+        <span>•</span>
+        <a href="https://sites.google.com/view/terms-english-grammar-practice/home" target="_blank">Terms of Use</a>
+        <span>•</span>
+        <a href="app-ads.txt">app-ads.txt</a>
+    </div>
+
+    <p class="ad-auth">Official publisher verification for Google AdMob advertising: <a href="app-ads.txt">View app-ads.txt</a></p>
+</div>
 </body>
 </html>
